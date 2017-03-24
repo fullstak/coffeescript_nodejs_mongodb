@@ -19,7 +19,8 @@ Steps to run this application (Nodejs should be installed)
 1. Download extract and browse to this folder
 2. Run "npm intall"
 3. Run "bower install"
-4. Run "npm start" (Application will run as expected)
+4. Run "npm start" 
+5. Browse any browser and enter http://localhost:3000
 
 Application code can be accessed using below Url.
 https://github.com/fullstak/coffeescript_nodejs_mongodb
