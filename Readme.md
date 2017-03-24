@@ -1,6 +1,7 @@
 Necessary information needs know to run this application
 1. NodeJs Required or can be installed from https://nodejs.org/en/
 2. MongoDb required or can be installed from https://docs.mongodb.com/manual/administration/install-community/
+3. Bower required or can be installed from https://bower.io/#install-bower
 
 Framework used..
 1. Coffeescript
