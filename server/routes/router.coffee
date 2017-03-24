@@ -5,7 +5,7 @@ module.exports = (route) ->
 		next();
 
 	route.get "/", (req, res) ->
-        res.render('index', { title: 'Library Application21'})
+        res.render('index', { title: 'Library Application'})
 
 	route.get "/addbook", (req, res) ->
         res.render('addbook', { title: 'Add Book'})
