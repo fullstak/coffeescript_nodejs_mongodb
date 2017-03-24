@@ -1,0 +1,28 @@
+extends layout.pug
+
+block content
+    div.row
+        div.col-sm-12
+            h2 View Book
+            table.table.table-hover
+                thead
+                    th Book Aurthor
+                    th Book Quantity
+                    th Book Name
+                    th Delete
+                tbody
+                    for result in data
+                        tr 
+                            td #{result.bookaurthor}
+                            td #{result.bookqty}
+                            td #{result.booktitle}
+                            td 
+                                a.glyphicon.glyphicon-remove(href="remove/"+result.id)
+
+            a.btn.btn-info(href='addbook') Add More Book..
+
+
+                    
+                        
+            
+    

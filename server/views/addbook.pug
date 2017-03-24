@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    div.row
+        div.col-sm-6
+            h2= title
+            form(method='POST' action='/addbook')
+                div.form-group
+                    label(for='booktitle') Enter Book Title:
+                    input#name.form-control(type='text', placeholder='Book Title' name='booktitle')
+                div.form-group
+                    label(for='bookqty') Enter Book Quantity:
+                    input#email.form-control(type='text', placeholder='Book Quantity' name='bookqty')
+                div.form-group
+                    label(for='bookaurthor') Enter Book Aurthor:
+                    input#favoriteBook.form-control(type='text', placeholder='Book Aurthor' name='bookaurthor')
+                button.btn.btn-primary(type='submit') Submit
